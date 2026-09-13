@@ -1,4 +1,4 @@
-# Panasonic CF-SR Fan Control (CFSRFanControl)
+# Panasonic CF-SR3, CF-SR4 Fan Control (CFSRFanControl)
 
 專為 Panasonic Let's Note CF-SR 系列筆電打造的 Linux (Ubuntu) 散熱與風扇控制解決方案。
 
