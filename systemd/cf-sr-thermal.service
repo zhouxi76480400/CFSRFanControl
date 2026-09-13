@@ -1,0 +1,13 @@
+[Unit]
+Description=Panasonic CF-SR Secure Dynamic Thermal Control
+After=systemd-modules-load.service local-fs.target
+
+[Service]
+Type=simple
+ExecStartPre=/sbin/modprobe panasonic_sr
+ExecStart=/usr/local/bin/cf-sr-thermal.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
